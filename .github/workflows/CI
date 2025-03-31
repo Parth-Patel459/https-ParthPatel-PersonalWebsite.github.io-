@@ -34,3 +34,22 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
+# Clone your repository
+git clone https://github.com/yourusername/your-repository.git
+
+# Navigate to repository
+cd your-repository
+
+# Create a new branch (optional but recommended)
+git checkout -b your-branch-name
+
+# Make changes to files
+
+# Stage changes
+git add .
+
+# Commit changes
+git commit -m "Describe your changes here"
+
+# Push changes to GitHub
+git push origin your-branch-name
